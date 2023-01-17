@@ -65,7 +65,12 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>net.officefloor.tutorial</groupId>
+            <artifactId>GwtService</artifactId>
+            <version>2.16.0</version>
+        </dependency>
+    </dependencies>
 
 	<build>
 		<plugins>
